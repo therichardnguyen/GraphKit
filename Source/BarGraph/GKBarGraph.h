@@ -56,6 +56,8 @@
 - (UIColor *)colorForBarAtIndex:(NSInteger)index;
 - (UIColor *)colorForBarBackgroundAtIndex:(NSInteger)index;
 - (CFTimeInterval)animationDurationForBarAtIndex:(NSInteger)index;
+- (NSInteger) numberOfVerticalSegments;
+- (NSString *) stringForVerticalSegmentAtIndex:(NSInteger)verticalIndex;
 
 - (NSString *)titleForBarAtIndex:(NSInteger)index;
 
